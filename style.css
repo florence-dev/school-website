@@ -85,7 +85,7 @@ height: 620px;
  
  }
 
-.nav-links li a{
+.nav-links li .home{
 margin: 0 30px;
   display: inline;
   list-style: none;
@@ -95,7 +95,7 @@ border-radius: 100px;
  font-weight: bold ;
   color: black;
   text-decoration: none;
- 
+ font-size: 15px;
 }
 
 .nav-links a:hover,nav li.activee a{
@@ -297,16 +297,81 @@ background: rgb(243, 241, 241);
   text-align: center;
   font-size: 40px;
 }
-footer{
-  background-color: #000;
-  
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding: 60px 10px;
+  background-color: #2d2e33;
+}
+ul{
+list-style: none;
+}
+.footer-col{
+  width: 25%;
+}
+.footer-col h4{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #f1bc0d;
+  text-transform: uppercase;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #27c0ac;
+  height: 2px;
+  width: 40px;
+
+}
+ul li:not(:last-child){
+  margin-bottom: 8px;
+}
+ul li a{
+  display: block;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #bdb6b6;
+  text-decoration: none;
+  transition: 0.4s;
 }
 
+.bottom-bar{
+  background: #f18930;
 
+  padding: 10px 0;
+  margin-top:0 ;
+
+}
+.bottom-bar p{
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+  text-align: center;
+ 
+}
+footer ul{
+   color:  #bdb6b6;
+}
 @media (max-width: 960px) {
  
   .vision li{
     font-size: 15px;
+  }
+
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer-col h4::before{
+all:unset
   }
  h1{
   font-size: 5px;
@@ -318,25 +383,26 @@ footer{
   font-size: 15px;
 }
 
-.navbar ul {
+.navbar .nav-links {
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0;
-  padding-right: 0;
+  padding-right: 10px;
 }
 
 .nav-links li {
   display: inline;
   list-style: none;
   line-height: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 
 }
-.nav-links li a{
-margin: 0 5px;
+.nav-links li .home{
+margin: 0px 5px;
  display: inline;
 list-style: none;
  padding: 10px 20px;
+ font-size: 18px;
  }
 .image {
 display:block;
