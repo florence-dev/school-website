@@ -144,7 +144,7 @@ text-align: end;
   color: #f9f7fe;
   padding-bottom: 0;
 font-size: 20px;
-
+text-align: center;
 }
 
 span{
@@ -336,7 +336,7 @@ footer ul{
 }
 @media (max-width: 960px) {
  
-  .vision li{
+  .vision {
     font-size: 20px;
   }
 
