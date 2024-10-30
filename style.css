@@ -6,8 +6,8 @@ body{
   max-width: 1224;
   width: 90%;
   margin: auto;
-  padding: 40px 0;
-
+  padding: 40px 0px;
+margin-top: 0;
 }
 
 .photo-gallery{
@@ -142,7 +142,7 @@ text-align: end;
 .vision{
   background: black;
   color: #f9f7fe;
-  padding-bottom: 0;
+  padding-bottom: 100px;
 font-size: 20px;
 text-align: center;
 }
@@ -265,12 +265,13 @@ background: rgb(243, 241, 241);
 
 .branch{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0;
   font-family: "Jersey 20 Charted", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   font-size: 40px;
+  margin-top: 0;
 }
 
 .footer{
